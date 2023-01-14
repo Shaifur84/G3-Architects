@@ -206,4 +206,9 @@ header {
         text-align: center;
         display: inline;
     }
+
+    .banner-image img {
+        height: 100vh;
+        width: 100vw;
+    }
 }
