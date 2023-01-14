@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.accent {
+    color: #ef9937;
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 9%;
+}
+
+.NavManu {
+    display: flex;
+    gap: 3em;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    background: #FF900E;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 34px;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.experience-btn {
+    text-decoration: none;
+    display: inline-block;
+    background: #FF900E;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 24px 44px;
+    border-radius: 8px;
+}
+
+.our-features {
+    display: flex;
+    padding: 3% 9%;
+}
+
+.our-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.our-img img:hover {
+    border-style: solid;
+    border-color: #FF900E;
+    transform: scale(1.2);
+
+}
+
+.quick-features {
+    padding: 10%;
+}
+
+.love-features {
+    display: flex;
+    padding: 3%;
+}
+
+.enjoy-features {
+    padding: 6%;
+}
+
+.enjoy-features h2 {
+    border-left: solid;
+    border-color: #FF900E;
+    padding: 1%;
+
+}
+
+.enjoy-features div {
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 5px 10px #edecec
+}
+
+.enjoy-features div:hover {
+
+    transform: scale(1.2);
+}
+
+.facts {
+    padding: 3% 9%;
+}
+
+.expreience {
+    text-align: center;
+}
+
+.facts-img {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.facts-img h3 {
+    font-size: 30px;
+}
+
+.facts-img div {
+    border-style: solid;
+    border-color: #FF900E;
+    border-radius: 8px;
+    height: 242px;
+    width: 242px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.facts-img div:hover {
+    background-color: rgba(255, 144, 14, 0.1);
+    box-shadow: inset 20px 20px 20px 20px #eea858;
+    transform: scale(1.2);
+}
+
+.testimonials {
+    text-align: center;
+}
+
+.testimonials-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    text-align: center;
+    padding: 3% 9%;
+
+}
+
+.testimonials-img div {
+    box-shadow: 5px 10px #edecec
+}
+
+.testimonials-img img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    border-color: #FF900E;
+
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 9%;
+}
+
+.footer {
+    text-align: center;
+    padding: 3% 9%;
+    background: rgba(255, 144, 14, 0.1);
+}
