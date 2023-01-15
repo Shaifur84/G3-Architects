@@ -211,4 +211,38 @@ header {
         height: 100vh;
         width: 100vw;
     }
+
+    .our-features {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .our-img {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    .love-features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-img img {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .facts-img {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .facts-img div {
+        margin: 1%;
+        padding: 3%;
+
+    }
 }
