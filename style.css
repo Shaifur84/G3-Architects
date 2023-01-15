@@ -65,6 +65,9 @@ header {
     font-weight: 700;
     padding: 24px 44px;
     border-radius: 8px;
+    position: relative;
+    top: -300px;
+    left: 60px;
 }
 
 .our-features {
