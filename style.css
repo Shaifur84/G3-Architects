@@ -112,7 +112,6 @@ header {
 }
 
 .enjoy-features div:hover {
-
     transform: scale(1.2);
 }
 
@@ -221,7 +220,7 @@ header {
 
     .our-features {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .our-img {
