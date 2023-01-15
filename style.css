@@ -245,4 +245,22 @@ header {
         padding: 3%;
 
     }
+
+    .testimonials-img {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .sponsors-img {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .sponsors-img img {
+        margin: 3%;
+        padding: 5%;
+    }
 }
